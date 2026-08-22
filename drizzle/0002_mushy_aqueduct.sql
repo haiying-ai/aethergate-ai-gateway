@@ -1,0 +1,1 @@
+ALTER TABLE `health_events` ADD `read_at` text;
