@@ -1,0 +1,46 @@
+name: Bug 报告
+description: 报告一个可复现的问题
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先搜索已有 Issue，避免重复。
+        安全问题请勿在公开 Issue 中讨论，见 [SECURITY.md](https://github.com/haiying-ai/aethergate-ai-gateway/blob/main/SECURITY.md)。
+
+        **请勿在 Issue 中粘贴上游 API Key、上游地址或成员密钥。** 用占位值描述即可。
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题描述
+      description: 发生了什么？预期是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 调用 ……
+        2. 返回……
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: 环境信息
+      placeholder: |
+        OS: Windows 11 / macOS 15 / Ubuntu 24.04
+        Node: v22.13.0
+        部署形态: 本地 / Cloudflare Workers / 其他
+        上游: 兼容 OpenAI 协议的哪类服务（可不写具体名字）
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志或截图
+      description: 请粘贴关键报错；**务必删除上游令牌、成员密钥、上游地址**
+      render: shell
+    validations:
+      required: false
