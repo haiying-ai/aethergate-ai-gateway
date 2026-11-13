@@ -97,4 +97,4 @@ D1 绑定在 `.openai/hosting.json` 中声明为 `DB`，`vite.config.ts` 会在�
 
 ## License
 
-待定（开源前确定；见上方「与 new-api 的关系」）。
+[MIT](LICENSE)。上游 `QuantumNous/new-api` 的 AGPL-3.0 不适用于本仓库，理由见上方「与 new-api 的关系」。

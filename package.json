@@ -1,5 +1,5 @@
 {
-  "name": "new-api",
+  "name": "aethergate",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -39,5 +39,6 @@
     "wrangler": "4.92.0"
   },
   "type": "module",
-  "displayName": "New API"
+  "displayName": "AetherGate · AI 网关",
+  "license": "MIT"
 }
