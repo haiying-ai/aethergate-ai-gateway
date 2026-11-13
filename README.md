@@ -4,6 +4,11 @@
 >
 > A self-hostable OpenAI-compatible gateway with multi-provider routing, member-scoped API keys, quota enforcement and per-request usage settlement.
 
+[![CI](https://github.com/haiying-ai/aethergate-ai-gateway/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/haiying-ai/aethergate-ai-gateway/actions/workflows/ci.yml)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Node](https://img.shields.io/badge/node-%E2%89%A522.13-339933?logo=nodedotjs&logoColor=white)
+![Deploy](https://img.shields.io/badge/Deploy-Cloudflare%20Workers-F38020?logo=cloudflare&logoColor=white)
+
 ## 解决什么问题
 
 把一个上游 API Key 直接发给同事或朋友，就没有任何边界了：用了多少、能不能用某个模型、超额后怎么办、出了事谁在用，全都不可控。AetherGate 把这些做成网关的默认能力：
